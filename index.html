@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+    <h1 id="title">Soldier of Heaven</h1>
+    <p id="description">He won't return to Blood Mountain.</p>
+  </head>
+  <body>
+    <form id="survey-form">
+      <label id="name-label">Name: <input id="name" type="text" required placeholder="Enter your name."></label>
+      <p>
+      <label id="email-label">E-mail: <input id="email" type="email" required placeholder="Enter your e-mail address."></label></p>
+      <label id="number-label">Age (optional): <input id="number" type="number" min=13 max=130 placeholder="Enter your age."></label>
+      <p>Select your current role.</p>
+      <select id="dropdown">
+        <option>Choose from below</option>
+        <option>General</option>
+        <option>Four-star</option>
+        <option>Soldier</option>
+        </select>
+      <p>Where did you find out about us?</p>
+      <div class="form-group">
+      <label>YouTube<input type="radio" name="find-out" value="Youtube" class="input-radio"></label>
+      <p>
+      <label>Instagram<input type="radio" name="find-out" value="Instagram" class="input-radio"></label>
+      </p>
+      <label>At a concert<input type="radio" name="find-out" value="At a concert" class="input-radio"></label>
+      </div>
+      <p>What would you like to be in the future?</p>
+      <fieldset>
+      <label>Engineer<input type="checkbox" value=0></label>
+      <p>
+      <label>Artist<input type="checkbox" value=0></label>
+      </p>
+      <label>Drummer<input type="checkbox" value=0></label>
+      </fieldset>
+      <p>Any suggestions for us?</p>
+      <textarea>
+        </textarea>
+        <p>
+      <button id="submit" type="submit">Submit</button>
+      </form>
+  </body>
+  </html>
